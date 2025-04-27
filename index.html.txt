@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>" Event invite.HTML"</title>
+        <style>
+            body{
+                font-family:'Arial',sana-serif;
+                background:#f8f0f0;
+                
+                height:100vh;
+                margin:0;
+            }
+            invitation{
+                background:white;
+                padding:30px;
+                border-radius:15px;
+                box-shadow:0 5px 15px;
+                text-align:center;
+                max-width:400px;
+            }
+            h2{
+                font-weight:bold;
+                color:white;
+                text-shadow:4px 0px 10px black;
+            }
+            .buttons {
+                margin:10px;
+                border:none;
+                border-radius:25px;
+                cursor:pointer;
+                transition:all 0.3s ease;
+            }
+            .yes{
+                background-color:brown;
+                color:white;
+            }
+            .no{
+                background-color:brown;
+                color:white;
+            }
+            .buttons button:hover{
+                transform:scale(1.1);
+                box-shadow:0 4px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited!</h1>
+        <h2>To something!</h2>
+        
+       <h2>We invited you to attend a wedding</h2>
+       
+       <em>with hearts filled with joy and happiness, <BR>we are honored to invite you to shar our most beautiful moment of our life <BR>on the occasion of  our blessed wedding <br> your presence is an honor for us and a decortion for or joy
+         
+       </em>
+       
+       <p class="details"> TIME : friday 10 may.2025<br>PLACE : zahraa hall <br>TIME :7:00pm</P>
+       <P class="message">We are honored to attend</P>
+       <div class="buttons">
+           <button class="yes">yea i will attend</button>
+           <button class="no">sorry icould not attend</button>
+       </div>
+        
+    </body>
+</html>
